@@ -1,5 +1,5 @@
-# TODO
+# TODO's
 
-# Questions
+# QUESTIONS
 
-# Things to Discuss
+# THINGS TO DISCUSS
