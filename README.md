@@ -22,8 +22,29 @@ Can you further explain the difference or benefits of using scss instead of css?
 
 # THINGS TO DISCUSS
 
+07/12 class
 What causes a React component to rerender?
 
 1. The component's parent renders again
 2. The component's props change
 3. The component's state changes
+
+07/15 class
+
+1. Why does organizing your components and html help you when you write css?
+
+Organizing your components and html helps you to separate concerns when writing CSS you can do this by wrapping them in a container.
+
+2. How can you use css grid to center something?
+
+You can use css grid to access the content-align [which organized your element horizontally] and align-items [which organized your element vertically] attributes.
+
+3. What determines the height and width of an element?
+
+The height and width of an element is determined by it’s whats assigned to it and/or its parent,
+
+4. What are some things you can do to debug CSS? (Code changes, developer tools, …)
+
+Some things you can do to debug CSS:
+using a border around you elements
+inspector tool far left button
