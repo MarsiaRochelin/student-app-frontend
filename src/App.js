@@ -23,7 +23,7 @@ function App() {
         const json = await response.json();
         console.log("<App /> useEffect() feteched data", json);
         const { data, error } = json;
-        console.log(response.status, response.ok);
+        // console.log(response.status, response.ok);
         if (response.ok) {
           setStudentData(data);
           //Stop showing the user the loading UI
