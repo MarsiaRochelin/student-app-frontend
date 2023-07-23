@@ -5,7 +5,9 @@ const Container = ({ center, children }) => {
   if (center) {
     classNames.push("Container--center");
   }
+
   console.log(`<Container /> rendered!`);
-  return <div className="Container Container--center">{children}</div>;
+
+  return <div className={classNames.join("")}>{children}</div>;
 };
 export default Container;

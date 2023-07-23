@@ -68,8 +68,8 @@ inspector tool far left button
 
 1. Why did we create a layout component? What problems does it solve?
 
-We created a layout component to handle render boil plate code, so we wouldn't have to track 3 different files. iThe layout component solves the problem of determing the vh/vw for child components when conditionally rendering them.
+We created a layout component to handle render boil plate code relating to the layout, so we wouldn't have to track 3 different files. The layout component solves the problem of determining the vh/vw for child components when conditionally rendering them.
 
-2. What are the main responsibilities of the layout component? The main Responsibilities of the layout componenet is to handle styling of child components.
+2. What are the main responsibilities of the layout component? The main Responsibilities of the layout componenet is to handle layout of child components.
 
-3. How can you make a layout component have optional variations like centering or scrolling?
+3. How can you make a layout component have optional variations like centering or scrolling? We can pass another prop center to our Container componenet to build logic for conditional rendering for things like centering and scrolling.
