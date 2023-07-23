@@ -1,7 +1,5 @@
 import "./Error.css";
 
-import "./Error.css";
-
 const Error = ({ error }) => {
   console.log(`<Error /> rendered! error=${error} `);
   return (

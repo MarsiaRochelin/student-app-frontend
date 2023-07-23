@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import Container from "./components/Container/Container";
 import Loading from "./components/Loading/Loading";
 import Error from "./components/Error/Error";
 import StudentList from "./components/StudentList";
@@ -55,7 +56,13 @@ function App() {
     `<App /> rendered! error = ${error} loading = ${loading} num students = ${studentData.length}`
   );
 
-  return <div className="App">{renderContent()}</div>;
+  return (
+    <div className="App">
+      <Container center={Boolean(error || loading)}>
+        {renderContent()}
+      </Container>
+    </div>
+  );
 }
 
 export default App;

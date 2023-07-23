@@ -63,3 +63,13 @@ inspector tool far left button
 
 4. What is the difference between a ternary and the and (&&) statement in React? When should you use each one?
    Ternary is a condition that renders one thing are another based on it being truthy/falsey the && operator needs what on the left operand to be truty to render the right operand.
+
+07/23
+
+1. Why did we create a layout component? What problems does it solve?
+
+We created a layout component to handle render boil plate code, so we wouldn't have to track 3 different files. iThe layout component solves the problem of determing the vh/vw for child components when conditionally rendering them.
+
+2. What are the main responsibilities of the layout component? The main Responsibilities of the layout componenet is to handle styling of child components.
+
+3. How can you make a layout component have optional variations like centering or scrolling?
