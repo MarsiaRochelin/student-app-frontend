@@ -3,7 +3,7 @@ import "./App.css";
 import Container from "./components/Container/Container";
 import Loading from "./components/Loading/Loading";
 import Error from "./components/Error/Error";
-import StudentList from "./components/StudentList";
+import StudentList from "./components/StudentList/StudentList";
 
 //TODO: Get this value from .env
 const API_URL = "http://localhost:8888";

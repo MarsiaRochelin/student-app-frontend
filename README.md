@@ -70,6 +70,16 @@ inspector tool far left button
 
 We created a layout component to handle render boil plate code relating to the layout, so we wouldn't have to track 3 different files. The layout component solves the problem of determining the vh/vw for child components when conditionally rendering them.
 
-2. What are the main responsibilities of the layout component? The main Responsibilities of the layout componenet is to handle layout of child components.
+2. What are the main responsibilities of the layout component? The main Responsibilities of the layout componenet is to handle layout/placemnet of child components.
 
 3. How can you make a layout component have optional variations like centering or scrolling? We can pass another prop center to our Container componenet to build logic for conditional rendering for things like centering and scrolling.
+
+08/09
+
+1. What are the main steps to implement the expand/collapse toggle feature?
+
+2. What data type did we use for the expand state? Why is that a good data type for toggling?
+
+3. Why does this feature use an && statement instead of a ternary?
+
+4. Explain how the expanded state determines the whether the button is a + or a -

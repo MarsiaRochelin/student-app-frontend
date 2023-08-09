@@ -1,0 +1,25 @@
+.StudentList {
+  /* border: 1px solid purple; */
+  height: inherit;
+}
+.StudentList__input {
+  /* background-color: aqua; */
+}
+
+.StudentList__input input {
+  margin: 0 8px;
+  padding: 16px 0 8px;
+  width: 95%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.StudentList__content--center {
+  height: calc(100% - 41px);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  /* border: 1px solid green; */
+}

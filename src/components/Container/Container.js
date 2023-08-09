@@ -8,6 +8,6 @@ const Container = ({ center, children }) => {
 
   console.log(`<Container /> rendered!`);
 
-  return <div className={classNames.join("")}>{children}</div>;
+  return <div className={classNames.join(" ")}>{children}</div>;
 };
 export default Container;
