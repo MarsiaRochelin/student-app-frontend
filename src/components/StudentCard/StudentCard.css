@@ -32,3 +32,17 @@
 .StudentCard__info li {
   list-style-type: none;
 }
+.StudentCard__grades span {
+  display: inline-block;
+  min-width: 64px;
+}
+
+.StudentCard__controls button {
+  background: none;
+  border: none;
+  padding: 0;
+  padding-top: 6px;
+  font-size: 24px;
+  color: #aaa;
+  cursor: pointer;
+}

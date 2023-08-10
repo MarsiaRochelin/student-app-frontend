@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaMinus, FaPlus } from "react-icons/fa";
 import "./StudentCard.css";
 
 const StudentCard = ({ student }) => {
@@ -42,11 +43,11 @@ const StudentCard = ({ student }) => {
           <li>Average: {average}%</li>
         </ul>
         {expanded && (
-          <div className="StudentCards__grades">
+          <div className="StudentCard__grades">
             <ul>
               {grades.map((grade, index) => (
                 <li key={`${grade}-${index}`}>
-                  Test {index + 1} {grade}%
+                  <span>Test {index + 1}</span> <span>{grade}%</span>
                 </li>
               ))}
             </ul>
@@ -59,7 +60,7 @@ const StudentCard = ({ student }) => {
             setExpanded(!expanded);
           }}
         >
-          {expanded ? "-" : "+"}
+          {expanded ? <FaMinus /> : <FaPlus />}
         </button>
       </div>
     </div>
